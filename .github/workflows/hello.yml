@@ -9,7 +9,7 @@
 # jobs inside workflow
  jobs:
 
-# NAME OF WORKFLOW
+# NAME OF WORKFLOW job
 
    greet:
 # This is github runner  each job runs on it 
