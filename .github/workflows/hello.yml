@@ -11,20 +11,18 @@
 
 # NAME OF WORKFLOW job
 
-greet:
-    # This is GitHub runner each job runs on it
-    runs-on: ubuntu-latest
+# NAME OF WORKFLOW job
 
+  greet:
+# This is github runner  each job runs on it  
+    runs-on: ubuntu-22.04 
     steps:
-      - name: Say hello to users
-        run: echo "hello all"
-
-      - name: Say hello to username
-        run: echo "Hello $USER"
-
- details:
-    runs-on: ubuntu-latest
-
+    - name: say hello to users
+      run: echo "hello all"
+    - name: say hello to username
+      run: echo "Hello $USER"
+  details:
+    runs-on: ubuntu-22.04
     steps:
-      - name: Version of python
-        run: python --version
+    - name: version of python
+      run: python --version
